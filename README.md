@@ -17,3 +17,4 @@ Last updated date: 09/15/2022
 [1] FALSE  TRUE
 
 ```
+`^`: matches start of the string
