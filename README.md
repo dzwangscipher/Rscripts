@@ -18,3 +18,11 @@ Last updated date: 09/15/2022
 
 ```
 `^`: matches start of the string
+
+```
+> grep("^A[0-9]{1}", colnames(data))
+[1] 2
+```
+
+`[0-9]`: range 0 to 9
+`{1}`: the proceeding item is matched exactly once. See https://stat.ethz.ch/R-manual/R-devel/library/base/html/regex.html
